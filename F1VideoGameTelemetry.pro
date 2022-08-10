@@ -11,9 +11,21 @@ SOURCES += \
     src/MainWindow.cpp
 
 HEADERS += \
+    headers/CarDamagePacket.hpp \
+    headers/CarSetupsPacket.hpp \
+    headers/CarStatusPacket.hpp \
+    headers/CarTelemetryPacket.hpp \
+    headers/Commons.hpp \
+    headers/EventPacket.hpp \
+    headers/FinalClassificationPacket.hpp \
+    headers/LapDataPacket.hpp \
+    headers/LobbyInfoPacket.hpp \
     headers/MainWindow.h \
     headers/MotionPacket.hpp \
+    headers/Packet.hpp \
     headers/PacketHeader.hpp \
+    headers/ParticipantsPacket.hpp \
+    headers/SessionHistoryPacket.hpp \
     headers/SessionPacket.hpp
 
 FORMS += \
