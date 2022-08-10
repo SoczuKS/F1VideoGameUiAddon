@@ -1,4 +1,4 @@
-QT       += core gui
+QT       += core gui network websockets
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -8,6 +8,7 @@ DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs depr
 
 SOURCES += \
     src/App.cpp \
+    src/PacketReceiver.cpp \
     src/main.cpp \
     src/MainWindow.cpp
 
@@ -18,6 +19,7 @@ HEADERS += \
     headers/CarStatusPacket.hpp \
     headers/CarTelemetryPacket.hpp \
     headers/Commons.hpp \
+    headers/Config.hpp \
     headers/Driver.hpp \
     headers/DriverStorage.hpp \
     headers/EventPacket.hpp \
@@ -32,6 +34,7 @@ HEADERS += \
     headers/NationalityStorage.hpp \
     headers/Packet.hpp \
     headers/PacketHeader.hpp \
+    headers/PacketReceiver.hpp \
     headers/ParticipantsPacket.hpp \
     headers/Ruleset.hpp \
     headers/RulesetStorage.hpp \
