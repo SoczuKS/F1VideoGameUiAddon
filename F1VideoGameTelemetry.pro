@@ -7,10 +7,12 @@ CONFIG += c++17
 DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    src/App.cpp \
     src/main.cpp \
     src/MainWindow.cpp
 
 HEADERS += \
+    headers/App.hpp \
     headers/CarDamagePacket.hpp \
     headers/CarSetupsPacket.hpp \
     headers/CarStatusPacket.hpp \
