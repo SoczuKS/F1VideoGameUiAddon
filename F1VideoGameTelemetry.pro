@@ -16,17 +16,31 @@ HEADERS += \
     headers/CarStatusPacket.hpp \
     headers/CarTelemetryPacket.hpp \
     headers/Commons.hpp \
+    headers/Driver.hpp \
+    headers/DriverStorage.hpp \
     headers/EventPacket.hpp \
     headers/FinalClassificationPacket.hpp \
+    headers/GameMode.hpp \
+    headers/GameModeStorage.hpp \
     headers/LapDataPacket.hpp \
     headers/LobbyInfoPacket.hpp \
     headers/MainWindow.h \
     headers/MotionPacket.hpp \
+    headers/Nationality.hpp \
+    headers/NationalityStorage.hpp \
     headers/Packet.hpp \
     headers/PacketHeader.hpp \
     headers/ParticipantsPacket.hpp \
+    headers/Ruleset.hpp \
+    headers/RulesetStorage.hpp \
     headers/SessionHistoryPacket.hpp \
-    headers/SessionPacket.hpp
+    headers/SessionPacket.hpp \
+    headers/Surface.hpp \
+    headers/SurfaceStorage.hpp \
+    headers/Team.hpp \
+    headers/TeamStorage.hpp \
+    headers/Track.hpp \
+    headers/TrackStorage.hpp
 
 FORMS += \
     resource/MainWindow.ui
