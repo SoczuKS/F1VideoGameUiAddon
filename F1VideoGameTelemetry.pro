@@ -14,38 +14,38 @@ SOURCES += \
 
 HEADERS += \
     headers/App.hpp \
-    headers/CarDamagePacket.hpp \
-    headers/CarSetupsPacket.hpp \
-    headers/CarStatusPacket.hpp \
-    headers/CarTelemetryPacket.hpp \
+    headers/packets/CarDamagePacket.hpp \
+    headers/packets/CarSetupsPacket.hpp \
+    headers/packets/CarStatusPacket.hpp \
+    headers/packets/CarTelemetryPacket.hpp \
     headers/Commons.hpp \
     headers/Config.hpp \
-    headers/Driver.hpp \
-    headers/DriverStorage.hpp \
-    headers/EventPacket.hpp \
-    headers/FinalClassificationPacket.hpp \
-    headers/GameMode.hpp \
-    headers/GameModeStorage.hpp \
-    headers/LapDataPacket.hpp \
-    headers/LobbyInfoPacket.hpp \
+    headers/static_data/Driver.hpp \
+    headers/static_data/DriverStorage.hpp \
+    headers/packets/EventPacket.hpp \
+    headers/packets/FinalClassificationPacket.hpp \
+    headers/static_data/GameMode.hpp \
+    headers/static_data/GameModeStorage.hpp \
+    headers/packets/LapDataPacket.hpp \
+    headers/packets/LobbyInfoPacket.hpp \
     headers/MainWindow.h \
-    headers/MotionPacket.hpp \
-    headers/Nationality.hpp \
-    headers/NationalityStorage.hpp \
-    headers/Packet.hpp \
-    headers/PacketHeader.hpp \
+    headers/packets/MotionPacket.hpp \
+    headersstatic_data//Nationality.hpp \
+    headers/static_data/NationalityStorage.hpp \
+    headers/packets/Packet.hpp \
+    headers/packets/PacketHeader.hpp \
     headers/PacketReceiver.hpp \
     headers/ParticipantsPacket.hpp \
-    headers/Ruleset.hpp \
-    headers/RulesetStorage.hpp \
-    headers/SessionHistoryPacket.hpp \
-    headers/SessionPacket.hpp \
-    headers/Surface.hpp \
-    headers/SurfaceStorage.hpp \
-    headers/Team.hpp \
-    headers/TeamStorage.hpp \
-    headers/Track.hpp \
-    headers/TrackStorage.hpp
+    headers/static_data/Ruleset.hpp \
+    headers/static_data/RulesetStorage.hpp \
+    headers/packets/SessionHistoryPacket.hpp \
+    headers/packets/SessionPacket.hpp \
+    headers/static_data/Surface.hpp \
+    headers/static_data/SurfaceStorage.hpp \
+    headers/static_data/Team.hpp \
+    headers/static_data/TeamStorage.hpp \
+    headers/static_data/Track.hpp \
+    headers/static_data/TrackStorage.hpp
 
 FORMS += \
     resource/MainWindow.ui
